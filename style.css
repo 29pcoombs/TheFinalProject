@@ -1,21 +1,102 @@
+/*website Color Scheme: 
+
+*light and bright
+*light blue: #4890f4
+*sky blue: #0445a0
+*deep blue: #0031e0
+* pale-bright blue: #2f4af9
+*bright blue: #0369f8
+
+*dark and bright
+*dark blue: #170061
+*#dark navy :#050231
+
+*light and dull
+*pale blue: #4f86c4
+*dim blue: #2a417e
+
+*dark and dull
+*blue-violet: #161641
+*blue-black: #0a0c1f
+*dim blue-green: #254a6f
+*super dark blue: #030112
+*/
+
 img{
     max-width: 200px;
 }
-/*website Color Scheme 
-*light and bright
-*light blue=#4890f4
-*deep blue=#0031e0
-*#2f4qf9
 
-*dark and bright
-*dark blue=#170061
-*#dark navy=050231
+/*HEADER STYLES */
 
-*light and dull
-*pale blue=#4f86c4
-*dim blue#2a417e
+header {
+    background-color: #0369f8;
+}
 
-*dark and dull
-*blue-violet#161641
-*blue-black=#0a0c1f
-*dim blue-green=#254a6f
+#logo {
+    border-radius: 20%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+nav a {
+    color: #170061;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #030112;
+}
+
+nav .active {
+    color: #0a0c1f;
+}
+
+/* ANCHOR LINK STYLES */
+
+a {
+    color: #170061;
+}
+
+a:visited {
+    color: #4890f4;
+}
+
+a:hover {
+    color: #0445a0;
+}
+
+/* BUTTON STYLES */
+
+.btn {
+    background-color: #0369f8;
+    color: #161641;
+    border:3px dashed #170061;
+    border-radius: 10%;
+}
+
+/* HERO SECTION STYLES */
+
+#hero {
+    background-image: url("car-images/red-mclaren.png");
+    color: #0d0dd7;
+}
+
+/* GUIDE SECTION STYLES */
+
+#guide {
+    background-color: #4890f4;
+    color: #0d0dd7;
+}
+
+/* ABOUT SECTION STYLES */
+
+#about {
+    background-color: #050231;
+    color: #0031e0;
+}
+
+/* FOOTER STYLES */
+
+footer {
+    background-color: #0369f8;
+}
