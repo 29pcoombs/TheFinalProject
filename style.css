@@ -9,7 +9,8 @@
 
 *dark and bright
 *dark blue: #170061
-*#dark navy :#050231
+*#dark navy: #050231
+*nice blue: #0b30b4
 
 *light and dull
 *pale blue: #4f86c4
@@ -20,6 +21,7 @@
 *blue-black: #0a0c1f
 *dim blue-green: #254a6f
 *super dark blue: #030112
+*dim and dull dark blue: #02010c
 */
 
 img{
@@ -58,20 +60,33 @@ a {
 }
 
 a:visited {
-    color: #4890f4;
+    color: #4890f4
 }
 
 a:hover {
-    color: #0445a0;
+    color: #170061;
 }
 
 /* BUTTON STYLES */
 
 .btn {
-    background-color: #0369f8;
-    color: #161641;
-    border:3px dashed #170061;
+    background-color: #0031e0;
+    color: #02010c;
+    border:3px dashed #050231;
     border-radius: 10%;
+    font-weight: bold;
+}
+
+.btn:visited {
+    background-color: #0031e0;
+    color: #4890f4;
+    border:3px dashed #050231;
+    border-radius: 10%;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: #0b30b4;
+    color: #170061;
 }
 
 /* HERO SECTION STYLES */
@@ -95,8 +110,35 @@ a:hover {
     color: #0031e0;
 }
 
+#about img {
+    border: 3px solid #2f4af9;
+}
+
+#about i {
+    color: #2f4af9
+}
+/* INFORMATION SECTION STYLES */
+
+#info {
+    background-color: #2f4af9;
+    color: #0a0c1f;
+}
+
+/* BUTTON BANNER STYLES */
+
+#btn-banner {
+    background-color: #0031e0;
+    color: #050231;;
+}
+
+/* IMAGE BANNER STYLES */
+
+#img-banner {
+    background-color: #4890f4;
+}
 /* FOOTER STYLES */
 
 footer {
     background-color: #0369f8;
+    color: #0a0c1f;
 }
