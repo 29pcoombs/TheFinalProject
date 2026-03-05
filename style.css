@@ -22,6 +22,8 @@
 *dim blue-green: #254a6f
 *super dark blue: #030112
 *dim and dull dark blue: #02010c
+*really dark blue: #051123
+
 */
 
 img{
@@ -56,7 +58,7 @@ nav .active {
 /* ANCHOR LINK STYLES */
 
 a {
-    color: #170061;
+    color: #0b30b4;
 }
 
 a:visited {
@@ -124,6 +126,15 @@ a:hover {
     color: #0a0c1f;
 }
 
+#info img {
+    border: 5px solid #170061;
+    border-radius: 10px;
+}
+
+#info i {
+    color: #051123;
+    font-weight: bold;
+}
 /* BUTTON BANNER STYLES */
 
 #btn-banner {
