@@ -26,6 +26,16 @@
 
 */
 
+@font-face {
+    font-family: supercharge-3d;
+    src: url(fonts/supercharge-font/Supercharge3D-GO79P.otf);
+    font-family: supercharge;
+    src: url(font/supercharge-font/Supercharge-JRgPo.otf);
+}
+
+h1,h2,h3,h4 {
+    font-family: supercharge-3d, supercharge, sans-serif;
+}
 img{
     max-width: 200px;
 }
