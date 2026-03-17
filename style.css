@@ -36,21 +36,42 @@
     src: url(fonts/supercharge-font/Supercharge-JRgPo.otf);
 }
 
+@font-face {
+    font-family: cutebold;
+    src: url(fonts/supercharge-font/cutebold-font/Cutebold-zE50.otf);
+}
+
 /* BODY AND HEADER STYLES */
 
 h1 {font-family: supercharge, supercharge-3d, sans-serif;
     font-weight: bold;
     font-size: 40px;}
-h2,h3,h4 {
+h1,h2,h3,h4 {
     font-family: supercharge, supercharge-3d, sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    text-align: center;
 }
 
+h1 {
+    font-size: 2em;
+}
 
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {font-size: 1.25em;}
+body {
+    font-family: cutebold, arial, sans-serif;
+    font-size: 18px;
+}
 
 #box {
-    background-color: white;
+    background-color: #ffffff;
 }
 
 img {
@@ -69,7 +90,7 @@ header {
     padding-left: 10px;
 }
 
-nav a {
+nav li a, nav a:visited {
     color: #170061;
     font-weight: bold;
 }
@@ -78,14 +99,15 @@ nav a:hover {
     color: #030112;
 }
 
-nav .active {
-    color: #0a0c1f;
+nav ul li a .active {
+    font-weight: hhhhhhhhhhh;
 }
 
 /* ANCHOR LINK STYLES */
 
 a {
     color: #0b30b4;
+    text-decoration: none;
 }
 
 a:visited {
