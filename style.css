@@ -29,14 +29,31 @@
 @font-face {
     font-family: supercharge-3d;
     src: url(fonts/supercharge-font/Supercharge3D-GO79P.otf);
-    font-family: supercharge;
-    src: url(font/supercharge-font/Supercharge-JRgPo.otf);
 }
 
-h1,h2,h3,h4 {
-    font-family: supercharge-3d, supercharge, sans-serif;
+@font-face {
+    font-family: supercharge;
+    src: url(fonts/supercharge-font/Supercharge-JRgPo.otf);
 }
-img{
+
+/* BODY AND HEADER STYLES */
+
+h1 {font-family: supercharge, supercharge-3d, sans-serif;
+    font-weight: bold;
+    font-size: 40px;}
+h2,h3,h4 {
+    font-family: supercharge, supercharge-3d, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+#box {
+    background-color: white;
+}
+
+img {
     max-width: 200px;
 }
 
