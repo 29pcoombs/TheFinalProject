@@ -11,6 +11,7 @@
 *dark blue: #170061
 *#dark navy: #050231
 *nice blue: #0b30b4
+*bright blue-violet: #02079a
 
 *light and dull
 *pale blue: #4f86c4
@@ -41,11 +42,15 @@
     src: url(fonts/supercharge-font/cutebold-font/Cutebold-zE50.otf);
 }
 
-/* BODY AND HEADER STYLES */
+/* GENERIC BODY AND HEADER STYLES */
 
-h1 {font-family: supercharge, supercharge-3d, sans-serif;
+
+
+h1 {
+    font-family: supercharge, supercharge-3d, sans-serif;
     font-weight: bold;
-    font-size: 40px;}
+    font-size: 40px;
+}
 h1,h2,h3,h4 {
     font-family: supercharge, supercharge-3d, sans-serif;
     font-weight: bold;
@@ -65,6 +70,7 @@ h3 {
 }
 
 h4 {font-size: 1.25em;}
+
 body {
     font-family: cutebold, arial, sans-serif;
     font-size: 18px;
@@ -72,13 +78,29 @@ body {
 
 #box {
     background-color: #ffffff;
+    padding: 10px
 }
 
 img {
     max-width: 200px;
 }
 
-/*HEADER STYLES */
+/* ANCHOR STYLES */
+
+a {
+    color: #0b30b4;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #4890f4
+}
+
+a:hover {
+    color: #170061;
+}
+
+/* HEADER STYLES */
 
 header {
     background-color: #0369f8;
@@ -99,25 +121,13 @@ nav a:hover {
     color: #030112;
 }
 
-nav ul li a .active {
-    font-weight: hhhhhhhhhhh;
+nav a.active {
+    color: #02079a;
 }
 
-/* ANCHOR LINK STYLES */
-
-a {
-    color: #0b30b4;
-    text-decoration: none;
+nav a.active:hover {
+    color: #030112;
 }
-
-a:visited {
-    color: #4890f4
-}
-
-a:hover {
-    color: #170061;
-}
-
 /* BUTTON STYLES */
 
 .btn {
