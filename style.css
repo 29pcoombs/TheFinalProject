@@ -71,6 +71,14 @@ h3 {
 
 h4 {font-size: 1.25em;}
 
+#guide h2, #info h2 {
+    text-shadow: 1px 1px #170061;
+}
+
+#about h2, #btn-banner h3 {
+    text-shadow: 1px 1px #0b30b4;
+}
+
 body {
     font-family: cutebold, arial, sans-serif;
     font-size: 18px;
@@ -115,6 +123,7 @@ header {
 nav li a, nav a:visited {
     color: #170061;
     font-weight: bold;
+    font-size: 1.5em;
 }
 
 nav a:hover {
@@ -136,6 +145,11 @@ nav a.active:hover {
     border:3px dashed #050231;
     border-radius: 10%;
     font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
 }
 
 .btn:visited {
@@ -155,6 +169,7 @@ nav a.active:hover {
 #hero {
     background-image: url("car-images/red-mclaren.png");
     color: #0d0dd7;
+    text-align: center;
 }
 
 /* GUIDE SECTION STYLES */
@@ -162,6 +177,7 @@ nav a.active:hover {
 #guide {
     background-color: #4890f4;
     color: #0d0dd7;
+    font-size: 1.25em;
 }
 
 /* ABOUT SECTION STYLES */
@@ -177,6 +193,11 @@ nav a.active:hover {
 
 #about i {
     color: #2f4af9
+}
+
+#about li {
+    list-style-type: none;
+    font-size: 1.25em;
 }
 /* INFORMATION SECTION STYLES */
 
