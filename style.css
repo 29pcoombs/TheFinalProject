@@ -12,6 +12,7 @@
 *#dark navy: #050231
 *nice blue: #0b30b4
 *bright blue-violet: #02079a
+*purple-blue: #0800fd
 
 *light and dull
 *pale blue: #4f86c4
@@ -58,18 +59,18 @@ h1,h2,h3,h4 {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.25em;
 }
 
 h2 {
-    font-size: 1.75em;
+    font-size: 2em;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 1.75em;
 }
 
-h4 {font-size: 1.25em;}
+h4 {font-size: 1.5em;}
 
 #guide h2, #info h2 {
     text-shadow: 1px 1px #170061;
@@ -81,7 +82,7 @@ h4 {font-size: 1.25em;}
 
 body {
     font-family: cutebold, arial, sans-serif;
-    font-size: 18px;
+    font-size: 1.25em;
 }
 
 #box {
@@ -121,7 +122,7 @@ header {
 }
 
 nav li a, nav a:visited {
-    color: #170061;
+    color: #0800fd;
     font-weight: bold;
     font-size: 1.5em;
 }
@@ -137,6 +138,7 @@ nav a.active {
 nav a.active:hover {
     color: #030112;
 }
+
 /* BUTTON STYLES */
 
 .btn {
@@ -154,7 +156,7 @@ nav a.active:hover {
 
 .btn:visited {
     background-color: #0031e0;
-    color: #4890f4;
+    color: #0369f8;
     border:3px dashed #050231;
     border-radius: 10%;
     font-weight: bold;
@@ -178,6 +180,7 @@ nav a.active:hover {
     background-color: #4890f4;
     color: #0d0dd7;
     font-size: 1.25em;
+    text-align: center;
 }
 
 /* ABOUT SECTION STYLES */
@@ -185,6 +188,8 @@ nav a.active:hover {
 #about {
     background-color: #050231;
     color: #0031e0;
+    list-style-type: none;
+    font-size: 1.25em;
 }
 
 #about img {
@@ -192,7 +197,8 @@ nav a.active:hover {
 }
 
 #about i {
-    color: #2f4af9
+    color: #2f4af9;
+    font-size: 1.5em;
 }
 
 #about li {
@@ -204,6 +210,7 @@ nav a.active:hover {
 #info {
     background-color: #2f4af9;
     color: #0a0c1f;
+    font-size: 1.25em;
 }
 
 #info img {
@@ -214,12 +221,16 @@ nav a.active:hover {
 #info i {
     color: #051123;
     font-weight: bold;
+    font-size: 3em;
+    text-shadow: 1px 1px #ffffff
 }
+
 /* BUTTON BANNER STYLES */
 
 #btn-banner {
     background-color: #0031e0;
-    color: #050231;;
+    color: #170061;
+    text-align: center;
 }
 
 /* IMAGE BANNER STYLES */
@@ -232,4 +243,14 @@ nav a.active:hover {
 footer {
     background-color: #0369f8;
     color: #0a0c1f;
+    text-align: center;
+    font-size: 1em;
+}
+
+footer i {
+    font-size: 2em;
+}
+
+footer li {
+    text-decoration: none;
 }
