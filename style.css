@@ -45,8 +45,6 @@
 
 /* GENERIC BODY AND HEADER STYLES */
 
-
-
 h1 {
     font-family: supercharge, supercharge-3d, sans-serif;
     font-weight: bold;
@@ -86,12 +84,8 @@ body {
 }
 
 #box {
-    background-color: #ffffff;
+    background-color: #0369f8;
     padding: 10px
-}
-
-img {
-    max-width: 200px;
 }
 
 /* ANCHOR STYLES */
@@ -113,6 +107,8 @@ a:hover {
 
 header {
     background-color: #0369f8;
+    display: flex;
+    justify-content: space-between;
 }
 
 #logo {
@@ -121,6 +117,11 @@ header {
     padding-left: 10px;
 }
 
+/* NAV STYLES */
+
+nav li{
+    display: inline;
+}
 nav li a, nav a:visited {
     color: #0800fd;
     font-weight: bold;
@@ -166,6 +167,18 @@ nav a.active:hover {
     color: #170061;
 }
 
+/* FLEX CONTAINER STYLES */
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.flex-container img {
+    width: 100%;
+}
+
 /* HERO SECTION STYLES */
 
 #hero {
@@ -183,13 +196,20 @@ nav a.active:hover {
     text-align: center;
 }
 
+#guide .flex-item {
+    flex: 33%;
+}
+
+#guide img {
+    display: block;
+}
+
 /* ABOUT SECTION STYLES */
 
 #about {
     background-color: #050231;
     color: #0031e0;
     list-style-type: none;
-    font-size: 1.25em;
 }
 
 #about img {
@@ -205,6 +225,11 @@ nav a.active:hover {
     list-style-type: none;
     font-size: 1.25em;
 }
+
+#about .flex-item {
+    flex: 48%;
+}
+
 /* INFORMATION SECTION STYLES */
 
 #info {
@@ -222,9 +247,13 @@ nav a.active:hover {
     color: #051123;
     font-weight: bold;
     font-size: 3em;
-    text-shadow: 1px 1px #ffffff
+    text-shadow: 1px 1px #ffffff;
+    float: left;
 }
 
+#info .flex-item {
+    flex: 48%;
+}
 /* BUTTON BANNER STYLES */
 
 #btn-banner {
@@ -237,6 +266,17 @@ nav a.active:hover {
 
 #img-banner {
     background-color: #4890f4;
+}
+
+#img-banner .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#img-banner img {
+    flex: 1 1 200px;
+    min-width: 0%;
+    height: auto;
 }
 /* FOOTER STYLES */
 
@@ -253,4 +293,5 @@ footer i {
 
 footer li {
     text-decoration: none;
+    display: inline;
 }
