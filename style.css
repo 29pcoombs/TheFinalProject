@@ -199,12 +199,13 @@ nav a.active:hover {
 /* HERO SECTION STYLES */
 
 #hero {
-    background-image: url("car-images/red-mclaren.png");
+    background-image: url("car-images/lava-red-mclaren.png");
     color: #0d0dd7;
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
     height: 70vh;
+    background-size: cover;
 }
 
 /* GUIDE SECTION STYLES */
@@ -241,7 +242,7 @@ nav a.active:hover {
 
 #about img {
     border: 3px solid #2f4af9;
-    padding-left:.5em;
+    margin: .5em;
 }
 
 #about i {
@@ -282,7 +283,6 @@ nav a.active:hover {
     text-shadow: 1px 1px #ffffff;
     float: left;
     padding-right: 1em;
-    padding-left: 1em;
 }
 
 #info .flex-item {
@@ -291,8 +291,8 @@ nav a.active:hover {
 /* BUTTON BANNER STYLES */
 
 #btn-banner {
-    background-color: #0031e0;
-    color: #170061;
+    background-color: #170061;
+    color: #0369f8;
     text-align: center;
 }
 
