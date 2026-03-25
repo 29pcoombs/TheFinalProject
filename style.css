@@ -28,6 +28,12 @@
 
 */
 
+/* OVERFLOW CODE */
+
+* {
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: supercharge-3d;
     src: url(fonts/supercharge-font/Supercharge3D-GO79P.otf);
@@ -208,14 +214,27 @@ nav a.active:hover {
 /* HERO SECTION STYLES */
 
 #hero {
-    background-image: url("car-images/lava-red-mclaren.png");
     color: #ffffff;
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 85vh;
     background-size: cover;
     position: relative;
+    overflow: hidden;
+}
+
+#hero picture, #hero img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#hero img {
+    display: block;
+    object-fit: cover;
+    z-index: -1;
 }
 
 #hero::before {
@@ -357,4 +376,19 @@ footer i {
 footer li {
     text-decoration: none;
     display: inline;
+}
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+    width: 16px
+}
+
+::-webkit-scrollbar-track {
+    background: #0369f8;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background: #0b30b4;
+    border-radius: 6px;
 }
