@@ -224,7 +224,7 @@ nav a.active:hover {
     overflow: hidden;
 }
 
-#hero picture, #hero img {
+#hero picture, #hero-img {
     position: absolute;
     inset: 0;
     width: 100%;
