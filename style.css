@@ -392,3 +392,16 @@ footer li {
     background: #0b30b4;
     border-radius: 6px;
 }
+
+/* GALLERY PAGE SYLES */
+
+#gallerypage h1 {
+    color:#02079a;
+    text-shadow: 1px 1px #02010c;
+    margin: 0;
+}
+
+.img-gallery {
+    width: 100%;
+    max-width: 950px;
+}
