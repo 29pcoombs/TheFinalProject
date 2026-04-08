@@ -396,9 +396,13 @@ footer li {
 /* GALLERY PAGE SYLES */
 
 #gallerypage h1 {
-    color:#02079a;
+    color: #0031e0;
     text-shadow: 1px 1px #02010c;
     margin: 0;
+}
+
+#gallerypage section {
+    background-color: #170061;
 }
 
 .img-gallery {
@@ -462,14 +466,14 @@ footer li {
 }
 
 .img-box .details .title {
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     font-weight: bold;
     position: relative;
     top: -5px;
     opacity: 0;
     visibility: hidden;
     transition: all .3s ease;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 .img-box:hover .details .title {
@@ -481,6 +485,7 @@ footer li {
 
 .img-box .details .text {
     position: relative;
+    margin-top: 0px;
     bottom: -5px;
     opacity: 0;
     visibility: hidden;
